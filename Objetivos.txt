@@ -1,0 +1,106 @@
+Objetivos da 1ª etapa:
+
+- iniciar o desenho da interface da aplicação
+- completar toda a parte do registo
+- atualização de utilizadores
+- algumas funcionalidades de administração 
+- espaço para fazer o login e o registo, para o Utilizador e o Administrador
+
+Utilizador:
+1. No registo de novos utilizadores, compradores ou vendedores, devem ser indicadas as informações:
+  - nome
+  - data de nascimento
+  - género(F/M/Outro)
+  - morada
+  - localidade
+  - código postal
+  - telefone
+  - e-mail
+  - password.
+  e garantir que:
+  - todos os campos devem ser validados e não devem permitir tags HTML ou caracteres estranhos
+  - não podem existir dois utilizadores com o mesmo e-mail e a password dos utilizadores é guardada na base de dados encriptada
+  estas restrições devem ser ativamente verificadas pela aplicação e o registo não pode prosseguir enquanto isso não suceder.
+
+2. Definição das preferências de um utilizador (alínea b);
+  - o utilizador quando pretende comprar produtos deverá também definir as suas preferências, tais como:
+    - categorias
+    - tamanhos dos artigos que procura
+    - marca
+    a seleção destas preferências influencia os produtos que visualiza na sua página de entrada.
+
+3. Atualização da informação de perfil e das preferências de utilizadores (alínea c);
+  - deverá ser possível a um utilizador registado atualizar a sua informação de perfil e as suas preferências.
+
+Administrador:
+4. Deve existir uma outra página não acessível a partir de nenhuma outra do site, na qual seja possível ao administrador aceder a 
+várias informações.
+
+5. Os administradores têm acesso a todos os dados dos utilizadores e podem procurar informação por diversos critérios:
+  - nome
+  - email
+  - localidade
+  - código postal
+  - género 
+  - ou por faixa etária. 
+
+
+
+
+Objetivos da 2ª etapa:
+
+- autenticação
+- login, do utilizador e do administrador 
+
+
+Objetivos da 1ª, 2ª e 3ª etapas:
+
+Funcionalidades:
+
+1. Registo de utilizadores: permite a introdução de novos utilizadores, compradores e vendedores. 
+A informação de perfil deve incluir: 
+  - nome
+  - data de nascimento
+  - género(F/M/Outro)
+  - morada
+  - localidade
+  - código postal
+  - telefone
+  - e-mail
+  - password
+
+2. Definição das preferências: o utilizador quando pretende comprar produtos deverá também definir as suas preferências, 
+tais como, categorias, tamanhos dos artigos que procura e marca. A seleção destas preferências influencia os produtos que 
+visualiza na sua página de entrada;
+
+3. Atualização de utilizadores e das preferências: deverá ser possível a um utilizador registado atualizar a sua informação 
+de perfil e as suas preferências.
+
+4. Registo de produtos para venda: o utilizador quando pretende vender um artigo deverá indicar: 
+  - título (p.e., camisola branca) 
+  - descrição
+  - categoria (p.e., mulher, homem, criança ou outro)
+  - tipo (p.e., calça, blusa e t-shirt)
+  - tamanho
+  - marca
+  - data de registo
+  - estado (p.e.,excelente, muito bom, bom e satisfatório)
+  - preço
+  - pelo menos uma foto de boa qualidade.
+
+5. Recomendação de produtos: o comprador quando entra na sua área deve ter sempre disponível uma lista de produtos ordenada 
+tendo em conta algumas das informações de perfil (género, idade e tamanho do vestuário) e as suas preferências definidas em 2.
+
+6. Pesquisa e filtragem de produtos: os compradores poderão pesquisar por diversos critérios, como por exemplo, categoria, tipo, 
+marca, estado, tamanho, preço, ou por data.
+
+7. Compra de produtos e marcação de favoritos: o comprador pode comprar um ou mais produtos e adicionar ou remover produtos da 
+lista de favoritos.
+
+8. Notificações de novos produtos: o comprador quando está na sua área deve ser notificado sobre novas ofertas de produtos.
+
+9. Negociação: a aplicação deve ainda ter uma funcionalidade de chat que facilite que os compradores e vendedores conversem sobre 
+uma transação de compra/venda de um produto, tirem dúvidas e negociem preços.
+
+10. Gestão: o administrador da aplicação poderá consultar todos os dados da aplicação de forma compreensível, agregados por utilizadores, 
+produtos, categorias de produtos, datas, entre outros critérios. 
